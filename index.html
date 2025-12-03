@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons/css/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card p-4 shadow-lg" style="max-width: 400px; width: 100%;">
+
+    <h2 class="text-center mb-4">Welcome Developer Heritage</h2>
+
+    <form id="loginForm" action="home.html">
+
+      <input class="form-control mb-3" type="text" id="username" placeholder="Username">
+
+      <div class="input-group mb-3">
+  <input type="password" id="password" class="form-control" placeholder="Password">
+  <span class="input-group-text" id="togglePassword" style="cursor: pointer;">
+    <!-- Eye SVG (hidden by default) -->
+    <svg id="eyeIcon" ko="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+      <path id="eyePath" d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8z"/>
+      <path id="pupil" d="M8 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/>
+    </svg>
+  </span>
+</div>
+
+      <button class="btn btn-danger w-100" type="submit">Login</button>
+
+      <p id="error" class="mt-3 text-center"></p>
+
+    </form>
+  </div>
+</div>
+
+<script src="index.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pictures</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.2s;
+}
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container-fluid">
+
+    <!-- Branding / Logo -->
+    <a class="navbar-brand" href="#">Pictures</a>
+
+    <!-- Toggle button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row g-4">
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card shadow-sm">
+        <img src="Pictures/Collage_20241231_120630.jpg" class="card-img-top" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Image One</h5>
+          <p class="card-text">First Year In University.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card shadow-sm">
+        <img src="Pictures\IMG_20250228_200740_404.jpg" class="card-img-top" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Image Two</h5>
+          <p class="card-text">Me in school cruising my departmental wear.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card shadow-sm">
+        <img src="Pictures/20240908_130736.jpg" class="card-img-top" alt="Image 3">
+        <div class="card-body">
+          <h5 class="card-title">Image Three</h5>
+          <p class="card-text">After Church Service.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

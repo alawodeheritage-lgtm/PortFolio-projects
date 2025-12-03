@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+@media(min-width: 500px) {
+  .card-img-top {
+    width: 800px;
+  }
+}
+</style>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container-fluid">
+
+    <!-- Branding / Logo -->
+    <a class="navbar-brand" href="#">Projects</a>
+
+    <!-- Toggle button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="picture.html">Pictures</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+  <section id="projects" class="py-5 bg-light">
+  <div class="container">
+
+    <h2 class="fw-bold text-center mb-5">Featured Projects</h2>
+
+    <div class="row g-4">
+
+      <!-- Project Card -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card shadow-sm project-card h-100">
+          <img src="Pictures/rock-paper-scissors.png" class="card-img-top" alt="Image" width="500px" height="500px">
+          <div class="card-body">
+            <h5 class="fw-bold">Rock Paper Scissors Project</h5>
+            <p>A game website</p>
+            <a href="projects/RockPaperScissors/RockPaperScissorcomplete.html" class="btn btn-dark btn-sm" top="20px" bottom="10px">View</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Another Card -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card shadow-sm project-card h-100">
+          <img src="Pictures/randcolor.png" class="card-img-top" alt="Image" width="500px" height="500px">
+          <div class="card-body">
+            <h5 class="fw-bold">Random Color</h5>
+            <p>A website that changes Color.</p>
+            <a href="projects/Randomcolor/RandomColor.html" class="btn btn-dark btn-sm" top="20px" bottom="10px">View</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Another Card -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card shadow-sm project-card h-100">
+          <img src="Pictures/todo-list.png" class="card-img-top" alt="Image" width="500px" height="500px">
+          <div class="card-body">
+            <h5 class="fw-bold">Todo-list</h5>
+            <p>A website to add your activities.
+            <a href="projects/Todo-list/Todo-list.html" class="btn btn-dark btn-sm" top="20px" bottom="10px">View</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
